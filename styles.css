@@ -7,3 +7,34 @@
 body {
   background-color: hsl(0, 50%, 50%);
 }
+
+/* ===== HEADER ===== */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+}
+
+#header-img-container, nav {
+  border: 1px solid blue;
+  flex: 1 1 0;
+}
+
+#header-img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ===== ===== */
+
+form {
+  margin-top: 100px;
+}
