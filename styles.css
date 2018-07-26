@@ -1,3 +1,9 @@
+/* ===== VARIABLES =====  */
+
+:root {
+  --color-1: hsl(0, 100%, 100%);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -5,7 +11,8 @@
 }
 
 body {
-  background-color: hsl(0, 50%, 50%);
+  background-color: var(--color-1);
+  padding-top: 60px;
 }
 
 /* ===== HEADER ===== */
@@ -15,26 +22,58 @@ header {
   top: 0;
   left: 0;
   display: flex;
+  justify-content: space-around;
   width: 100%;
+  padding-top: 10px;
 }
 
-#header-img-container, nav {
-  border: 1px solid blue;
-  flex: 1 1 0;
+#header-img-container {
+  flex: 0 0 35%;
 }
 
 #header-img {
   width: 100%;
 }
 
-nav {
+#nav-bar {
+  flex: 0 0 35%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+#nav-bar > div {
+  flex: 1 1 0;
+  text-align: center;
+}
+
+#nav-bar > div > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#nav-bar > div > a:hover {
+  font-weight: bold;
+}
+
+
+
 /* ===== ===== */
 
-form {
-  margin-top: 100px;
+#tag-line {
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+  padding: 20px;
+}
+
+#form > input {
+  margin: 2.5px 0 2.5px 0;
+  padding: 5px;
+}
+
+#video {
+  margin: 0 auto;
 }
