@@ -2,6 +2,7 @@
 
 :root {
   --color-1: hsl(0, 100%, 100%);
+  --color-2: hsl(37, 96%, 46%);
 }
 
 * {
@@ -56,7 +57,28 @@ header {
   font-weight: bold;
 }
 
+/* ===== SELLING POINTS ===== */
 
+.selling-point-container {
+  display: flex;
+  margin: 10px;
+}
+
+.selling-icon-container {
+  flex: 0 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selling-text-container {
+  flex: 0 0 80%;
+}
+
+.fa-people-carry, .fa-truck, .fa-check-double {
+  font-size: 40px;
+  color: var(--color-2);
+}
 
 /* ===== ===== */
 
