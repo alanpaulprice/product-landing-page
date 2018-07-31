@@ -2,7 +2,8 @@
 
 :root {
   --color-1: hsl(0, 100%, 100%);
-  --color-2: hsl(37, 96%, 46%);
+  --color-2: hsl(37, 100%, 40%);
+  --color-3: hsl(0, 0%, 100%);
 }
 
 * {
@@ -26,6 +27,7 @@ header {
   justify-content: space-around;
   width: 100%;
   padding-top: 10px;
+  background-color: var(--color-1);
 }
 
 #header-img-container {
@@ -46,6 +48,7 @@ header {
 #nav-bar > div {
   flex: 1 1 0;
   text-align: center;
+  font-size: 1.15em;
 }
 
 #nav-bar > div > a {
@@ -55,6 +58,23 @@ header {
 
 #nav-bar > div > a:hover {
   font-weight: bold;
+}
+
+/* ===== TAG LINE / FORM ===== */
+
+#tag-line {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+#form {
+  text-align: center;
+  padding: 20px;
+}
+
+#form > input {
+  margin: 5px 0 5px 0;
+  padding: 5px;
 }
 
 /* ===== SELLING POINTS ===== */
@@ -80,24 +100,34 @@ header {
   color: var(--color-2);
 }
 
-/* ===== ===== */
-
-#tag-line {
-  text-align: center;
-}
-
-#form {
-  text-align: center;
-  padding: 20px;
-}
-
-#form > input {
-  margin: 5px 0 5px 0;
-  padding: 5px;
-}
+/* ===== VIDEO ===== */
 
 #video-container {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+}
+
+/* ===== PRICING ===== */
+
+#pricing {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.price-plan {
+  flex: 0 0 30%;
+  border: 1px solid var(--color-2);
+  text-align: center;
+}
+
+.price-plan-name {
+  background-color: var(--color-2);
+  color: var(--color-3);
+  padding: 10px;
+}
+
+.price {
+  font-weight: bold;
 }
