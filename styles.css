@@ -12,6 +12,7 @@
   padding: 0;
   margin: 0;
   box-sizing: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -26,6 +27,7 @@ body {
 #submit, button {
   background-color: var(--color-1);
   font-weight: bold;
+  outline: none;
 }
 
 /* ===== HEADER ===== */
@@ -87,14 +89,20 @@ header {
   padding: 20px;
 }
 
-#form > input {
+#form > #email {
   margin: 5px 0 5px 0;
   padding: 5px;
   width: 50%;
 }
 
+#form > #email:focus {
+  outline-color: var(--color-1);
+}
+
+
 #form > #submit {
   width: 10em;
+  margin-top: 5px;
   padding: 7.5px;
   font-size: 1.125em;
 }
@@ -164,7 +172,6 @@ header {
 
 .price-plan-name {
   background-color: var(--color-1);
-  /* color: var(--color-2); */
   padding: 10px;
 }
 
