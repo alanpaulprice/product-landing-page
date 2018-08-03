@@ -1,9 +1,9 @@
 /* ===== VARIABLES =====  */
 
 :root {
-  --color-1: hsl(0, 100%, 100%);
-  --color-2: hsl(37, 100%, 50%);
-  --color-3: hsl(0, 0%, 100%);
+  --color-1: hsl(37, 100%, 60%); /* yellow */
+  --color-2: hsl(0, 0%, 100%); /* white */
+  --color-3: hsl(0, 0%, 45%) /* black */
 }
 
 
@@ -15,7 +15,6 @@
 }
 
 body {
-  background-color: var(--color-1);
   padding-top: 100px;
 }
 
@@ -25,8 +24,8 @@ body {
 }
 
 #submit, button {
-  background-color: var(--color-2);
-  color: var(--color-3);
+  background-color: var(--color-1);
+  font-weight: bold;
 }
 
 /* ===== HEADER ===== */
@@ -41,7 +40,7 @@ header {
   flex-wrap: wrap;
   width: 100%;
   padding-top: 10px;
-  background-color: var(--color-1);
+  background-color: var(--color-2);
 }
 
 #header-img-container, #nav-bar {
@@ -126,7 +125,7 @@ header {
 
 .fa-people-carry, .fa-truck, .fa-check-double {
   font-size: 40px;
-  color: var(--color-2);
+  color: var(--color-1);
 }
 
 /* ===== VIDEO ===== */
@@ -152,21 +151,20 @@ header {
 
 #pricing {
   display: flex;
+  flex-flow: column;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
 }
 
 .price-plan {
-  flex: 0 0 50%;
-  border: 1px solid var(--color-2);
   text-align: center;
   margin-top: 10px;
 }
 
 .price-plan-name {
-  background-color: var(--color-2);
-  color: var(--color-3);
+  background-color: var(--color-1);
+  /* color: var(--color-2); */
   padding: 10px;
 }
 
