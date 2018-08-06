@@ -3,7 +3,7 @@
 :root {
   --color-1: hsl(37, 100%, 60%); /* yellow */
   --color-2: hsl(0, 0%, 100%); /* white */
-  --color-3: hsl(0, 0%, 45%) /* black */
+  --color-3: hsl(37, 0%, 75%) /* purple */
 }
 
 
@@ -65,7 +65,7 @@ header {
 #nav-bar > div {
   flex: 1 1 0;
   text-align: center;
-  font-size: 1.15em;
+  font-size: 1em;
 }
 
 #nav-bar > div > a {
