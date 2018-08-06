@@ -109,27 +109,27 @@ header {
   font-size: 1.125em;
 }
 
-/* ===== SELLING POINTS ===== */
+/* ===== FEATURES ===== */
 
-.selling-point-container {
+.feature-container {
   display: flex;
   margin: 50px 12.5px;
 }
 
-.selling-icon-container {
+.feature-icon-container {
   flex: 0 0 20%;
   display: none;
   justify-content: center;
   align-items: center;
 }
 
-.selling-text-container {
+.feature-text-container {
   flex: 0 0 100%;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.selling-text-container h3 {
+.feature-text-container h3 {
   font-size: 1.5em;
 }
 
@@ -216,11 +216,11 @@ body {
   padding-top: 80px;
 }
 
-.selling-icon-container {
+.feature-icon-container {
 display: flex;
 }
 
-.selling-text-container {
+.feature-text-container {
 flex: 0 0 80%;
 }
 }*/
