@@ -11,7 +11,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
 
@@ -28,6 +28,11 @@ body {
   background-color: var(--color-1);
   font-weight: bold;
   outline: none;
+  border: none;
+}
+
+#submit:hover, button:hover {
+  cursor: pointer;
 }
 
 /* ===== HEADER / FOOTER ===== */
@@ -109,6 +114,10 @@ footer {
 
 #form > #email:focus {
   outline-color: var(--color-1);
+}
+
+#form > #email::placeholder {
+  text-align: center;
 }
 
 
