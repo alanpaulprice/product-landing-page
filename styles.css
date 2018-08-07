@@ -30,7 +30,7 @@ body {
   outline: none;
 }
 
-/* ===== HEADER ===== */
+/* ===== HEADER / FOOTER ===== */
 
 header {
   position: fixed;
@@ -45,7 +45,8 @@ header {
   background-color: var(--color-2);
 }
 
-#header-img-container, #nav-bar {
+#header-img-container,
+#nav-bar {
   flex: 0 0 100%;
   justify-content: center;
   margin-bottom: 5px;
@@ -57,25 +58,34 @@ header {
   min-width: 250px;
 }
 
-#nav-bar {
+#nav-bar,
+footer > #footer-links {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-#nav-bar > div {
-  flex: 1 1 0;
-  text-align: center;
-  font-size: 1em;
-}
-
-#nav-bar > div > a {
+#nav-bar > div > a,
+.footer-link > a {
   text-decoration: none;
   color: inherit;
 }
 
-#nav-bar > div > a:hover {
+#nav-bar > div > a:hover,
+.footer-link > a:hover {
   font-weight: bold;
+}
+
+footer > #copyright {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.75em;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 12.5px 0;
+  background-color: var(--color-3);
 }
 
 /* ===== TAG LINE / FORM ===== */
