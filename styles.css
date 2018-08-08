@@ -55,6 +55,7 @@ header {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
+  min-width: 320px;
   padding-top: 10px;
   background-color: var(--color-2);
 }
@@ -68,8 +69,9 @@ header {
 }
 
 #header-img {
-  width: 50%;
+  width: 75%;
   min-width: 250px;
+  max-width: 350px;
 }
 
 #nav-bar,
