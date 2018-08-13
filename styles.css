@@ -22,6 +22,7 @@ body {
 #container {
   max-width: 960px;
   min-width: 320px;
+  margin: 0 auto;
 }
 
 #tag-line-and-form,
@@ -56,7 +57,7 @@ header {
   flex-wrap: wrap;
   width: 100%;
   min-width: 320px;
-  padding-top: 10px;
+  padding: 10px 0;
   background-color: var(--color-2);
 }
 
@@ -64,7 +65,6 @@ header {
 #nav-bar {
   flex: 0 0 100%;
   justify-content: center;
-  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -143,6 +143,7 @@ footer {
   display: flex;
   margin-left: 12.5px;
   margin-right: 12.5px;
+  text-align: center;
 }
 
 .feature-container:nth-child(n+2) {
@@ -156,14 +157,13 @@ footer {
   align-items: center;
 }
 
-.feature-text-container {
-  flex: 0 0 100%;
-  text-align: center;
-}
-
 .feature-text-container h3 {
   font-size: 1.5em;
   margin-bottom: 5px;
+}
+
+.feature-text-container {
+  flex: 0 0 100%;
 }
 
 .fa-people-carry, .fa-truck, .fa-check-double {
