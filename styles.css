@@ -239,9 +239,14 @@ footer {
   margin: 25px 0;
 }
 
+/* ========================= */
 /* ===== MEDIA QUERIES ===== */
+/* ========================= */
 
 @media only screen and (min-width: 576px) {
+
+  /* ===== FEATURES ===== */
+
   .feature-container {
     text-align: left;
   }
@@ -253,10 +258,16 @@ footer {
   .feature-text-container {
     flex-basis: 80%;
   }
+
+  /* ===== PRICING ===== */
+
+  .price-plan {
+    width: 50%;
+  }
 }
 
 /* ===== */
 
-@media only screen and (min-width: 5768px) {
+@media only screen and (min-width: 768px) {
 
 }
