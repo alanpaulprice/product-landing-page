@@ -211,6 +211,7 @@ header {
   border: 5px solid var(--color-1);
   text-align: center;
   width: 75%;
+  max-width: 300px;
   align-self: center;
   border-bottom-left-radius: 12.5px;
   border-bottom-right-radius: 12.5px;
@@ -287,5 +288,20 @@ header {
 
   #header-img-container, nav {
     flex: 0 0 50%;
+  }
+
+  /* ===== PRICING ===== */
+
+  #pricing {
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+  #pricing > .price-plan:nth-child(n+2) {
+    margin-top: 0;
+  }
+
+  #pricing > .price-plan {
+    width: 30%;
   }
 }
