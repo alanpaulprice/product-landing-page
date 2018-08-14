@@ -29,7 +29,7 @@ body {
 #features,
 #video-container,
 #pricing,
-footer {
+#footer {
   margin-top: 100px;
 }
 
@@ -75,10 +75,14 @@ header {
 }
 
 #nav-bar,
-footer > #footer-links {
+#footer > #footer-links {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+#nav-bar > div {
+  flex: 1 1 0;
 }
 
 #nav-bar > div > a,
@@ -92,15 +96,20 @@ footer > #footer-links {
   font-weight: bold;
 }
 
-footer > #copyright {
+#footer > #copyright {
   text-align: center;
   margin-top: 10px;
   font-size: 0.75em;
 }
 
-footer {
+#footer {
   padding: 12.5px 0;
   background-color: var(--color-1);
+  border-top-left-radius: 12.5px;
+  border-top-right-radius: 12.5px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ===== TAG LINE / FORM ===== */
@@ -279,11 +288,4 @@ footer {
   #header-img-container, nav {
     flex: 0 0 50%;
   }
-
-  footer {
-    border-top-left-radius: 12.5px;
-    border-top-right-radius: 12.5px;
-  }
-
-
 }
