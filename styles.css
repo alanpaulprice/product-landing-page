@@ -3,7 +3,7 @@
 :root {
   --color-1: hsl(37, 100%, 60%); /* yellow */
   --color-2: hsl(0, 0%, 100%); /* white */
-  --color-3: hsl(0, 0%, 80%) /* purple */
+  --color-3: hsl(0, 0%, 0%) /* black */
 }
 
 
@@ -104,7 +104,6 @@ header {
 
 #footer {
   padding: 12.5px 0;
-  background-color: var(--color-1);
   border-top-left-radius: 12.5px;
   border-top-right-radius: 12.5px;
   max-width: 480px;
@@ -208,7 +207,7 @@ header {
 }
 
 .price-plan {
-  border: 5px solid var(--color-1);
+  border: 5px solid var(--color-3);
   text-align: center;
   width: 75%;
   max-width: 300px;
@@ -222,7 +221,8 @@ header {
 }
 
 .price-plan-name {
-  background-color: var(--color-1);
+  color: var(--color-2);
+  background-color: var(--color-3);
   padding: 10px;
   font-weight: bold;
   font-size: 1.125em;
