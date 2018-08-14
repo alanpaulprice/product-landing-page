@@ -125,8 +125,8 @@ header {
 
 #form > #email {
   padding: 5px;
-  width: 50%;
-  min-width: 250px;
+  width: 300px;
+  text-align: center;
 }
 
 #form > #email:focus {
