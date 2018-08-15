@@ -54,6 +54,7 @@ header {
   z-index: 1;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-direction: column;
   width: 100%;
   min-width: 320px;
@@ -83,6 +84,7 @@ header {
 
 #nav-bar > div {
   flex: 1 1 0;
+  min-width: 100px;
 }
 
 #nav-bar > div > a,
